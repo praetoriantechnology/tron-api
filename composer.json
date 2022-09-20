@@ -23,7 +23,7 @@
         "comely-io/data-types": "^2.0",
         "guzzlehttp/guzzle": "^7.0",
         "web3p/web3.php": "dev-master",
-        "kornrunner/secp256k1": "^0.1.2",
+        "kornrunner/secp256k1": "dev-master",
         "simplito/elliptic-php": "^1.0",
         "ext-json": "*",
         "ext-bcmath": "*"
@@ -55,6 +55,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:davorminchorov/web3.php.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:davorminchorov/php-secp256k1.git"
         }
     ],
     "minimum-stability": "dev",
